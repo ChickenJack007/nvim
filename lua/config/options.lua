@@ -9,5 +9,5 @@ vim.o.foldlevel = 1
 vim.g.mapleader = " "
 -- vim.keymap.set("n", "<leader>cd", vim.cmd.Ex) --not needed if using snacks.nvim
 vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = false })
-vim.keymap.set("n", "f", "za", opts)
+vim.keymap.set("n", "z", "za", opts)
 
