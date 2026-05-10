@@ -15,6 +15,8 @@ return {
                 "python",
                 "rust",
 		"cpp",
+		"html",
+		"css",
             },
             auto_install = false,
         })
